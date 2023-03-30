@@ -43,8 +43,8 @@
                         <input class="form-control" type="text" name="nama" id="nama" required>
                     </div>
                     <div class="col-6">
-                        <label class="form-label" for="number">NRP </label>
-                        <input class="form-control" type="text" name="nrp" id="nrp" required>
+                        <label class="form-label" for="nrp">NRP </label>
+                        <input class="form-control" type="number" name="nrp" id="nrp" required>
                     </div>
                 </div>
                 <div class="row">

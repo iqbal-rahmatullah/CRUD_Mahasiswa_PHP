@@ -48,7 +48,7 @@
                     <label class="form-label" for="nama">Nama </label>
                     <input class="form-control" type="text" name="nama" id="nama" value="<?php echo $d['nama']; ?>">
                     <label class="form-label" for="nrp">NRP </label>
-                    <input class="form-control" type="text" name="nrp" id="nrp" value="<?php echo $d['nrp']; ?>">
+                    <input class="form-control" type="number" name="nrp" id="nrp" value="<?php echo $d['nrp']; ?>">
                     <label class="form-label" for="jenis_kelamin">Jenis Kelamin </label>
                     <select class="form-select" name="jenis_kelamin" id="jenis_kelamin" value="<?php echo $d['jenis_kelamin']; ?>">
                         <option value="Laki Laki">Laki Laki</option>

@@ -9,10 +9,12 @@ const buttonHapus = (url) => {
     if (willDelete) {
       swal("Data Mahasiswa Berhasil Dihapus", {
         icon: "success",
+        text: "Redirecting in 2 sec...",
+        buttons: false,
       });
+      setTimeout(() => {
+        window.location.replace(url);
+      }, 2000);
     }
-    setTimeout(() => {
-      window.replace(url);
-    }, 2000);
   });
 };

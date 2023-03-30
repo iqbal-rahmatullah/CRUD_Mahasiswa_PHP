@@ -67,7 +67,7 @@
                         <td><?php echo $d['mata_kuliah_favorit']; ?></td>
                         <td><?php echo $d['hobi']; ?></td>
                         <td>
-                            <a class="btn btn-success" href="edit.php?id=<?php echo $d['id']; ?>"><i class="bi bi-pencil-fill"></i> EDIT</a>
+                            <a class="btn btn-success mb-2" href="edit.php?id=<?php echo $d['id']; ?>"><i class="bi bi-pencil-fill"></i> EDIT</a>
                             <a class="btn btn-danger" onclick="buttonHapus(`hapus.php?id=<?php echo $d['id']; ?>`)"><i class="bi bi-eraser-fill"></i> HAPUS</a>
                         </td>
                     </tr>
