@@ -41,7 +41,7 @@
     ?>
 
         <div class="container my-4">
-            <div class="container header_form"><i class="bi bi-person-fill-gear px-2"></i>Form Tambah Mahasiswa</div>
+            <div class="container header_form"><i class="bi bi-person-fill-gear px-2"></i>Form Edit Mahasiswa</div>
             <div class="container py-3 form_input">
                 <form method="post" action="update.php">
                     <input class="form-control" type="hidden" name="id" id="id" value="<?php echo $d['id']; ?>">
